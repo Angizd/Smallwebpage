@@ -1,0 +1,26 @@
+
+.header{
+
+        height:100px;
+      }
+
+#logo {margin-left:20px;
+      height:40%;
+
+    }
+
+#menu {float: right;
+       margin-right: 20px;
+       height:40%;
+       
+      }
+
+
+
+#image-spash { width:100%;
+               height:auto;
+               opacity:0.7;
+      }
+
+.splash{background-color:black;
+        }
