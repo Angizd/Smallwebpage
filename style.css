@@ -1,4 +1,5 @@
 
+
 .header {
   height:100px;
 }
@@ -7,50 +8,43 @@
   margin-top:20px;
   margin-left:20px;
   height:40%
-
-
 }
 
 #menu {
   margin-top: 20px;
-  float: right;
+  float:right;
   margin-right: 20px;
   height:40%;
-
 }
 
-#splash {
+#overlay{
   background-color:black;
-  size:auto;
-  position:relative;
+  text-align:center;
 }
 
+.tittle{
+  position:relative;
+  display: block;
+}
 
 #image-spash {
   width:100%;
   opacity:0.7;
-
+  vertical-align:bottom;
 }
 
 
-#berlin {
-  position:absolute;;
-  text-align:center;
-  top:50%;
-  left:40%;
+.tittle p {
+  top: 50px;
+  bottom:50px;
   font-family: serif;
   font-size: 21px;
   font-style: italic;
   font-weight: bold;
   color: white;
-
 }
 button{
-  position:absolute;;
   background-color:#FFCC33;
-  align-items: center;
-  top: 60%;
-  left:50%;
   border-width: 3px;
   border-style: solid;
   border-color: #cc6600;
@@ -63,7 +57,132 @@ button{
 }
 
 
-#body{
-  background-color:grey;
+.container {
+  background-color:#CCCCCC;
+  height:30%;
+}
+
+.container2{
+  display:inline-block;
+  position:static;
+  margin-left:10%;
+
+}
+
+.container2 img {
+  height:50px;
+  width: 50px;
+}
+
+.container2 p {
+  font-size: 16px;
+}
+
+.cat{
+  float:left;
+  margin-top: 20px;
+}
+
+#imgcat{
+  margin-top:20px;
+  float:left;
+}
+#textcat{
+  float:right;
+  width:300px;
+  position: relative;
+  margin-left:20px;
+}
+/*word*/
+
+.word{
+  float:right;
+  margin-top: 20px;
+
+}
+
+#imgword{
+  float:left;
+  margin-top:20px;
+
+}
+
+#textword{
+  float:right;
+  width:300px;
+  margin-left:20px;
+}
+
+
+.container3{
+  display:inline-block;
+  margin-left:10%;
+
+}
+
+.container3 img {
+  height:50px;
+  width: 50px;
+}
+
+.container3 p {
+  font-size: 16px;
+}
+/*swim */
+
+.swim{
+  float:left;
+  margin-bottom:20px;
+
+
+}
+
+#imgswim{
+  float:left;
+  margin-top: 20px;
+
+}
+
+#textswim{
+  float:right;
+  width:300px;
+  margin-left:20px;
+}
+
+/*colums*/
+
+.colums{
+  float:right;
+
+}
+
+#imgcolum{
+  float:left;
+  margin-top: 20px;
+}
+
+#textcolum{
+  float:right;;
+  width:300px;
+  margin-left:20px;
+
+}
+
+
+
+.end{
+  position:relative;
+  height:20px;
+  background-color: darkgrey;
+  text-align:left;
+  font-size: 10px;
+  color: white;
+}
+
+.end p{
+text-align:left;
+font-size: 10px;
+color: white;
+margin-left:2%;
 
 }
