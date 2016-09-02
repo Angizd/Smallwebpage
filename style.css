@@ -17,58 +17,69 @@
   height:40%;
 }
 
-#overlay{
+.mainpicture{
+position:relative;
+width:100%;
   background-color:black;
-  text-align:center;
 }
 
-.tittle{
-  position:relative;
-  display: block;
-}
-
-#image-spash {
+.mainpicture img{
   width:100%;
-  opacity:0.7;
+  position:relative;
   vertical-align:bottom;
+  opacity:0.7;
 }
 
-
-.tittle p {
-  top: 50px;
-  bottom:50px;
-  font-family: serif;
-  font-size: 21px;
-  font-style: italic;
-  font-weight: bold;
-  color: white;
+#overlay{
+  position:absolute;
+  top:50
+  left:50;
+  width:100%;
+  height:auto;
+  margin-top: 0px;
+  background-color:black;
 }
+
+#title{
+    position:absolute;
+    width:100%;
+    top:25%;
+    text-align:center;
+    left:0;
+    z-index:1000;
+    font-family:serif;
+    font-size:21px;
+    font-style:italic;
+    font-weight:bold;
+    color:white;
+  }
+
 button{
-  background-color:#FFCC33;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #cc6600;
-  border-radius:100px;
-  height:30px;
-  width:130px;
-  font-size:15px;
-  color:#cc6600;
-  font-family: Times;
-}
+    background-color:#FFCC33;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #cc6600;
+    border-radius:100px;
+    height:30px;
+    width:130px;
+    font-size:15px;
+    color:#cc6600;
+    font-family: Times;
+  }
 
 
 .container {
   background-color:#CCCCCC;
   height:30%;
+  position:relative;
 }
 
 .container2{
   display:inline-block;
-  position:static;
   margin-left:10%;
 
-}
 
+}
 .container2 img {
   height:50px;
   width: 50px;
@@ -80,91 +91,91 @@ button{
 
 .cat{
   float:left;
-  margin-top: 20px;
+  margin-top:20px;
+  margin-left: 20px;
+
+
 }
 
 #imgcat{
   margin-top:20px;
   float:left;
+  position:absolute;
+  margin-left:20px;
 }
 #textcat{
   float:right;
   width:300px;
-  position: relative;
-  margin-left:20px;
+  display:inline;
+  margin-left:80px;
 }
-/*word*/
 
 .word{
-  float:right;
-  margin-top: 20px;
+  float:left;
+  margin-top:20px;
+  margin-left: 20px;
+
 
 }
 
 #imgword{
   float:left;
   margin-top:20px;
-
+  position:absolute;
+  margin-left: 20px;
 }
 
 #textword{
   float:right;
   width:300px;
-  margin-left:20px;
+  margin-left:80px;
+  display:inline;
 }
 
-
-.container3{
-  display:inline-block;
-  margin-left:10%;
-
-}
-
-.container3 img {
-  height:50px;
-  width: 50px;
-}
-
-.container3 p {
-  font-size: 16px;
-}
-/*swim */
 
 .swim{
   float:left;
   margin-bottom:20px;
-
+  margin-left: 20px;
 
 }
 
 #imgswim{
   float:left;
   margin-top: 20px;
+  position:absolute;
+  margin-left:20px;
 
 }
 
 #textswim{
   float:right;
   width:300px;
-  margin-left:20px;
+  margin-left:80px;
+  display:inline;
 }
 
-/*colums*/
+
 
 .colums{
-  float:right;
+  float:left;
+  margin-bottom:20px;
+  margin-left: 20px;
 
 }
 
 #imgcolum{
   float:left;
-  margin-top: 20px;
+  margin-top:20px;
+  position:absolute;
+  margin-left:20px;
 }
 
 #textcolum{
   float:right;;
   width:300px;
-  margin-left:20px;
+  margin-left:80px;
+  display:inline;
 
 }
 
